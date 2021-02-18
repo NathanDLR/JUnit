@@ -11,6 +11,13 @@ public class JUnitTest {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Controller ctrl = new Controller();
+        
+        // Connection
+        ctrl.connectToDB();
+        
+        // Main form
+        ctrl.showMainForm();
     }
     
 }
